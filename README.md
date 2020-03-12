@@ -9,9 +9,9 @@ use Database\MySQL;
 // Connection
 $database = new MySQL();
 $database->setServer("127.0.0.1");
-$database->setUsername("admin");
-$database->setPassword("w0nderL@nd");
-$database->setDatabase("test_db");
+$database->setUsername("your_username");
+$database->setPassword("your_password");
+$database->setDatabase("your_dbname");
 
 // Create table
 $database->createTable("users", [
