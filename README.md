@@ -1,8 +1,8 @@
-# database
+# Database
 
 ```php
 
-include_once("./src/Database.php");
+require_once("./vendor/autoload.php");
 
 use Database\MySQL;
 
