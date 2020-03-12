@@ -1,6 +1,6 @@
 # database
 
-<?php
+```php
 
 include_once("./src/Database.php");
 
@@ -58,4 +58,4 @@ if ($database->getError() !== null) {
 
 print_r($database->getResult());
 
-?>
+```
